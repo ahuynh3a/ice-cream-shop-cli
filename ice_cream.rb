@@ -29,7 +29,7 @@ class IceCream
       end
     end
     unless flavor_found
-      puts "Thank you for reccomending #{@flavor}, we'll make sure it is avliabile the next time you visit!"
+      puts "Thank you for reccomending #{@flavor}, we'll make sure it is available the next time you visit!"
       IceCream.add_flavor("#{@flavor}")
     end 
   end 
